@@ -1,0 +1,140 @@
+CRITICAL - 2022-07-26 03:19:21 --> Undefined variable: categoriaModel
+in APPPATH\Controllers\Categorias.php on line 33.
+ 1 APPPATH\Controllers\Categorias.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categoriaModel', 'APPPATH\\Controllers\\Categorias.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:20:06 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(33): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:20:19 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(33): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:21:40 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(34): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:22:33 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(34): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:23:55 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(34): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:28:27 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(35): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:28:34 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(35): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:29:40 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(35): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 03:31:01 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 555.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'errno\' of non-object', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 555, [])
+ 2 SYSTEMPATH\Model.php(452): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+ 4 APPPATH\Controllers\Categorias.php(38): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 09:02:32 --> Array to string conversion
+in APPPATH\Controllers\Produtos.php on line 34.
+ 1 APPPATH\Controllers\Produtos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Produtos.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 09:13:43 --> Undefined variable: produto
+in APPPATH\Views\produtos\editar.php on line 33.
+ 1 APPPATH\Views\produtos\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: produto', 'APPPATH\\Views\\produtos\\editar.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produtos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('produtos/editar', [], true)
+ 5 APPPATH\Controllers\Produtos.php(83): view('produtos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->editar('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 09:16:54 --> Undefined property: stdClass::$name
+in APPPATH\Views\produtos\editar.php on line 48.
+ 1 APPPATH\Views\produtos\editar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$name', 'APPPATH\\Views\\produtos\\editar.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produtos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('produtos/editar', [], true)
+ 5 APPPATH\Controllers\Produtos.php(84): view('produtos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->editar('16')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 09:24:51 --> Undefined variable: produtoModel
+in APPPATH\Controllers\Produtos.php on line 74.
+ 1 APPPATH\Controllers\Produtos.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: produtoModel', 'APPPATH\\Controllers\\Produtos.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->editar('17')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-26 09:26:38 --> Undefined variable: ProdutoModel
+in APPPATH\Controllers\Produtos.php on line 69.
+ 1 APPPATH\Controllers\Produtos.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ProdutoModel', 'APPPATH\\Controllers\\Produtos.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->editar('17')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

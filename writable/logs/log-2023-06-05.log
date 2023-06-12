@@ -1,0 +1,28 @@
+CRITICAL - 2023-06-05 08:09:40 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Categorias.php on line 53.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('categorias/excluir/42')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('categorias/excluir/42')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('categorias/excluir/42')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 08:17:37 --> Undefined variable $name
+in APPPATH\Controllers\Categorias.php on line 54.
+ 1 APPPATH\Controllers\Categorias.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Controllers\\Categorias.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->excluir('46')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 08:17:55 --> Undefined variable $nome
+in APPPATH\Controllers\Categorias.php on line 54.
+ 1 APPPATH\Controllers\Categorias.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'APPPATH\\Controllers\\Categorias.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->excluir('47')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 08:18:52 --> Object of type App\Models\CategoriaModel is not callable
+in APPPATH\Controllers\Categorias.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Categorias->excluir('48')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
